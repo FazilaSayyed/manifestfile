@@ -4,9 +4,10 @@ metadata:
      name: clusterip
 spec: 
   selector: 
-         -name: mycontainer
-          image: nginx:latest
-          ports: 
-             -name: http
-             containerPort: 80
-             protocol: TCP
+       app: mypod
+  type: ClusterIP     
+  ports:
+    - protocol: TCP
+      port: 80
+      #targetPort: 80
+      name: nginx
