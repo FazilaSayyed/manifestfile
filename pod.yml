@@ -4,9 +4,9 @@ metadata:
      name: mypod
 spec: 
   containers: 
-         -name: mycontainer
+         - name: mycontainer
           image: nginx:latest
           ports: 
-             -name: http
+             - name: http
              containerPort: 80
              protocol: TCP
