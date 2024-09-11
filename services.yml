@@ -4,7 +4,7 @@ metadata:
      name: LB
 spec: 
   selector: 
-       app: mypod
+       app: mypod1
   type: LoadBalancer     
   ports:
     - protocol: TCP
