@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-     name: mymanifest
+     name: mypod
 spec: 
   containers: 
          -name: mycontainer
